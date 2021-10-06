@@ -1,0 +1,11 @@
+.table-container {
+    height: 500px;
+    width: 100%;
+    .table {
+        .table-cell {
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
